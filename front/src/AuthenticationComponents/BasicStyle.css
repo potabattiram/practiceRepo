@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent_Login{
+
+}
+#child_Login{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bttnsofLogin{
+    display: flex;
+    justify-content: space-between;
+}
+#forgotPass{
+    font-size: 18px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: blue;
+}
+#forgotPass:hover{
+    color:grey;
+}

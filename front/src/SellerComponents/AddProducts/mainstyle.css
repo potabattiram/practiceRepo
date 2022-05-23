@@ -1,0 +1,440 @@
+.allgrids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    grid-auto-rows: minmax(200px, auto);
+    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+  }
+  #searchSuggests {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+    background-color: white;
+    width: 18rem;
+    height: 3rem;
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  #searchSuggests:hover{
+    background-color: aliceblue;
+    transition: 0.2s;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  #outer_Search {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+  }
+  .grid {
+    padding: 0px 0px;
+    font-size: 15px;
+    border-radius: 0px;
+    box-shadow: 3px 3px 7px #d5d5d5, -2px -2px 6px #ebebeb;
+    border-radius: 4px;
+  }
+  #desc_prods {
+    font-size: 15px;
+    line-height: 1.4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+  .content {
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  #imgtop {
+    width: 18rem;
+    height: 11rem;
+    filter: drop-shadow(2px 2px 2px #222);
+  }
+  .imgback {
+    height: 100vh;
+    width: 70%;
+  }
+  #towel_Heads {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #dozens_Setter {
+    margin: 0.1rem;
+    width: 2rem;
+    background-color: aliceblue;
+    padding: 2px;
+  }
+  #Pin_Message {
+    color: green;
+    margin: 1rem;
+    margin-left: 0;
+    margin-top: -2rem;
+    font-size: 18px;
+    line-height: 1.9rem;
+  }
+  .select:focus{
+    outline:none
+  }
+  .select{
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+  #Cart_Button {
+    background-color: blue;
+    color: white;
+    margin-left: 1rem;
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+  #Cart_Button_in_Dets {
+    background: blue;
+    margin: 2rem;
+    margin-left: 0;
+  }
+  #other_Heads {
+    font-size: 24px;
+    margin-left: 1rem;
+  }
+  #imgdets {
+    width: 26rem;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.009);
+    margin-top: 4rem;
+    border-radius: 6px;
+    filter: drop-shadow(2px 2px 2px #222);
+  }
+  
+  .gridsdetails {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .max_Inputss {
+    font-size: 28px;
+    font-weight: 500;
+    width: 32rem;
+  }
+  .mid_Inputs{
+    font-size: 20px;
+    font-weight: 300;
+    width: 20%;
+    height: 2rem;
+    padding: 4px;
+  }
+  .contentdt {
+    margin: 3rem;
+    font-size: 20px;
+    line-height: 2.4rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+  }
+  .sp {
+    font-size: 18px;
+    color: green;
+    font-style: italic;
+  }
+  .prizes {
+    font-size: 18px;
+    margin: 1rem;
+    margin-left: 0rem;
+  }
+  .prizesh {
+    font-size: 17px;
+  }
+  #table {
+    width: 30rem;
+    font-size: 16px;
+  }
+  .fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  #fab1 {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  #inner_FabsforMail {
+    background-color: #d44638;
+    color: white;
+    border-radius: 100px;
+    width: 1rem;
+    margin: 5px;
+  }
+  #inner_FabsforPhone {
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+    width: 1rem;
+    margin: 5px;
+  }
+  #inner_FabsforWhatsApp {
+    background-color: #25d366;
+    color: white;
+    border-radius: 100px;
+    width: 1rem;
+    margin: 5px;
+  }
+  
+  #buys {
+    position: fixed;
+    bottom: 2rem;
+    right: 13rem;
+    color: black;
+  }
+  @media screen and (max-width: 1024px) {
+    .allgrids {
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 2rem;
+      gap: 15px;
+    }
+    #Cart_Button {
+      background-color: blue;
+      color: white;
+      margin-left: 1rem;
+      width: 35%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #max_Inputs {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .allgrids {
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 2rem;
+      gap: 15px;
+      margin-left: 1rem;
+    }
+    .select{
+      padding: 7px;
+      font-size: 13px;
+    }
+    .content {
+      margin: 8px;
+    }
+    #Cart_Button {
+      background-color: blue;
+      color: white;
+      margin-left: 8px;
+      width: 45%;
+      margin-bottom: 1rem;
+    }
+  
+    #imgtop {
+      width: 14rem;
+      height: 8rem;
+      cursor: pointer;
+    }
+    .content {
+      margin: 1rem;
+      font-size: 17px;
+      cursor: pointer;
+    }
+    .gridsdetails {
+      display: grid;
+      grid-template-columns: auto;
+  }
+    .contentdt {
+      margin-left: 1rem;
+      line-height: 2.4rem;
+      font-size: 20px;
+    }
+    .sp {
+      font-size: 20px;
+    }
+    #imgdets {
+      width: 22rem;
+      height: 18rem;
+    }
+  
+    #fab {
+      bottom: 1.6rem;
+      right: 1.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    #fab1 {
+      right: 1rem;
+      bottom: 2px;
+      flex-direction: column;
+    }
+    .select{
+      padding: 6px;
+      font-size: 14px;
+      margin-top: -1rem;
+      margin-left: 8px;
+      margin-bottom: 4px;
+  }
+    #towel_Heads{
+      font-size: 16px;
+    }
+    #Pin_Message {
+      margin: -2rem 1rem 1rem 0px;
+      font-size: 14px;
+      line-height: 1.5rem;
+    }
+    #table {
+      width: 21rem;
+    }
+    #Cart_Button {
+      background-color: blue;
+      color: white;
+      margin-left: 8px;
+      width: 57%;
+      margin-bottom: 1rem;
+    }
+    .max_Inputs {
+      font-size: 22px;
+      font-weight: 500;
+      width: 22rem;
+    }
+    .max_Inputss{
+      width: 22rem;
+    }
+    #desc_prods {
+      margin-right: -1rem;
+    }
+    .allgrids {
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 2rem;
+      gap: 10px;
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+    .imgback {
+      width: 100%;
+      height: 80vh;
+    }
+  
+    .content {
+      margin: 10px;
+    }
+    #other_Heads {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+    .grid {
+      margin: 2px;
+    }
+    #imgtop {
+      width: 12rem;
+      height: 8rem;
+    }
+    .content {
+      margin: 1rem;
+      font-size: 18px;
+    }
+    .contentdt {
+      margin-top: 8px;
+      line-height: 2rem;
+      font-size: 16px;
+      letter-spacing: 0.3px;
+    }
+    .sp {
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .prizesh,
+    .prizes {
+      font-size: 17px;
+      letter-spacing: 1px;
+    }
+    .gridsdetails {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    #imgdets {
+      width: 18rem;
+      height: 14rem;
+      margin-top: 2px;
+    }
+    #fab {
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .content {
+      margin: 4px;
+      font-size: 14px;
+    }
+    #table {
+      width: 15rem;
+    }
+    .select{
+      padding: 6px;
+      font-size: 12px;
+      margin: 2px;
+  }
+    #Cart_Button {
+      background-color: blue;
+      color: white;
+      margin-left: 2px;
+      width: 57%;
+      margin-bottom: 4px;
+    }
+    .allgrids {
+      margin-left: 2px;
+      gap: 4px;
+      margin-right: 2px;
+    }
+    .grid {
+      margin-left: 2px;
+      padding: 3px;
+      margin-right: 2px;
+    }
+    .imgback {
+      height: 40vh;
+    }
+    #imgtop {
+      width: 9rem;
+      height: 7rem;
+      padding: 4px;
+    }
+    #imgdets {
+      width: 18rem;
+      height: 13rem;
+    }
+    #fab {
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #imgdets {
+      height: 12rem;
+      width: 16rem;
+    }
+    .imgback {
+      height: 38vh;
+    }
+    #Cart_Button {
+      background-color: blue;
+      color: white;
+      margin-left: 2px;
+      width: 72%;
+      margin-bottom: 4px;
+      margin-top: -2px;
+    }
+    #max_Inputs {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  

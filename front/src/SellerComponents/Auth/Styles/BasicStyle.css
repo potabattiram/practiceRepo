@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#child_Login{
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bttnsofLogin{
+    display: flex;
+    justify-content: space-between;
+}
+#forgotPass{
+    font-size: 18px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: blue;
+}
+#forgotPass:hover{
+    color:grey;
+}
+#belowChild{
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
